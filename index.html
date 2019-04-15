@@ -8,15 +8,103 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+
     <!--processing-->
     <script type="text/javascript" src="processing.js"></script>
 
-    <title>Hello, world!</title>
+    <title>Processing</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <!-- <img class="img-fluid" src="img/processing-web.png"> -->
+    
+    <!-- About -->
+    <div class="container">
+        <h1>Processing</h1>
+      <div class="row">
+      
+          <ul>
+            <li>Flexible software sketchbook for learning to code within the context of the visual arts</li>
+            <li>Created by Ben Fry and Casey Reas in 2001</li>
+            <li>Language based on Java, IDE </li>
+            <li>Promotes software literacy in the visual arts</li>
+            <li>Promotes visual literacy within technology</li>
+            <li>Used by thousands of students, artists, designers, and hobbyists</li>
+            <li>Free and open source</li>
+            <li>For Linux, Mac OS X, Windows, Android, and ARM</li>
+            <li>Over 100 libraries</li>
+            <li>Well documented</li>
+            <li>Google, Intel have used Processing for prototyping new interfaces and services</li>
+          </ul>
+      </div>
+    </div>
 
-    <canvas style="border:1px solid black " data-processing-sources="sample/sample.pde"></canvas>
+    <!--Presentation overview-->
+    <div class="container">
+      <h2>Overview</h2>
+      <ul>PDE and example</ul>
+      <ul>Brushes</ul> <!--hatching p_2_3_2_01, -->
+      <ul>Typography</ul>
+      <ul>Meshes and 3D forms</ul>
+      <ul>Data visualization</ul>
+    </div>
+    </div>
+
+    <!-- Comparison to Open Frameworks -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <h3>Processing</h3>
+          <hr>
+          <img class="img-fluid" style="height:200px"src="img/processing.jpg">
+          <ul>
+            <li>Java</li>
+            <li>Garbage Collector</li>
+            <li>Slower</li>
+            <li>Easy to learn</li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <h3>Open Frameworks</h3>
+          <hr>
+          <img class="img-fluid" style="height:200px" src="img/open_frameworks.png">
+          <ul>
+            <li>C++</li>
+            <li>Manage own memory</li>
+            <li>Faster</li>
+            <li>Harder to learn (easier with prior knowledge of Processing)</li>
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    <div class="container">
+        <canvas data-processing-sources="circles/circles.pde"></canvas>
+    </div>
+
+    <div class="container">
+      <canvas data-processing-sources="circles_process_1/circles_process_1.pde"></canvas>
+  </div>
+
+  <div class="container">
+    <canvas data-processing-sources="circles_process_2/circles_process_2.pde"></canvas>
+  </div>
+
+  <div class="container">
+    <canvas data-processing-sources="circles_process_3/circle_process_3.pde"></canvas>
+  </div>
+
+
+    <div class="container">
+      <h3>References</h3>
+      <ul>
+        <li>https://processing.org/</li>
+        <li>https://en.wikipedia.org/wiki/Processing_(programming_language)</li>
+      </ul>
+    </div>
 
 
     <!-- Optional JavaScript -->
